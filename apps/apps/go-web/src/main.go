@@ -6,8 +6,10 @@ import (
 )
 
 func indexHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Simples Go Web")
+	fmt.Fprintf(w, "Simples Go Web Felipe Botero")
 }
+
+
 
 func main() {
 	fmt.Println("starting on port 8080...")
