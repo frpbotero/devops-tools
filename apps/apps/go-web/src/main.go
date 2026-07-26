@@ -10,7 +10,7 @@ func indexHandler(w http.ResponseWriter, r *http.Request) {
 }
 
 
-# teste
+
 func main() {
 	fmt.Println("starting on port 8080...")
 	http.HandleFunc("/", indexHandler)
